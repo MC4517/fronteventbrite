@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet show event</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color:white;">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">EVENTBRITE THP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Accueil
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Évènements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">À propos</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Se connecter / S'inscrire</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Connexion</a>
+                  <a class="dropdown-item" href="#">Inscription</a>
+
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <section class="py-5">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Nom de l'évènement</h1>
+                            <!-- Post meta content-->
+                            <div class="text-muted fst-italic mb-2">Posté le 25/05/2021</div>
+                            <!-- Post categories-->
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Soirée</a>
+                            <a class="badge bg-secondary text-decoration-none link-light" href="#!">Déguisement</a>
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="https://photos.mandarinoriental.com/is/image/MandarinOriental/paris-2017-home?wid=2880&hei=1280&fmt=jpeg&crop=9,336,2699,1200&anchor=1358,936&qlt=75,0&fit=wrap&op_sharpen=0&resMode=sharp2&op_usm=0,0,0,0&iccEmbed=0&printRes=72" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <p class="fs-5 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe.</p>
+                            <p class="fs-5 mb-4">The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
+                            <p class="fs-5 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">second titre</h2>
+                            <p class="fs-5 mb-4">For me, the most fascinating interface is Twitter. I have odd cosmic thoughts every day and I realized I could hold them to myself or share them with people who might be interested.</p>
+                            <p class="fs-5 mb-4">Venus has a runaway greenhouse effect. I kind of want to know what happened there because we're twirling knobs here on Earth without knowing the consequences of it. Mars once had running water. It's bone dry today. Something bad happened there as well.</p>
+                        </section>
+                    </article>
+                    <!-- Comments section-->
+                    <section class="mb-5">
+                        <section id="coms">
+                        <div class="card bg-light">
+                            <div class="card-body">
+                                <!-- Comment form-->
+                                <form class="mb-12">
+                                <!-- Comment with nested comments-->
+                                <div class="col-md-12">
+                                    <div class="md-form amber-textarea active-amber-textarea-2">
+                                        <h1>Écrire un commentaire</h1>
+                                        <textarea id="form16" class="md-textarea form-control" rows="3"></textarea>
+                                        
+                                      </div>
+                                      <div class="text-center">
+                                        <button type="button" class="btn btn-primary">Commenter</button>
+                                      </div>
+                                    <div class="headings d-flex justify-content-between align-items-center mb-3">
+                                        
+                                       
+                                    </div>
+                                    <div class="card p-3">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="user d-flex flex-row align-items-center"> <img src="https://lh3.googleusercontent.com/V45ZUOJ4ilM6bYcgfEDVWCSkxi1lhNYx96qS1CVrtpuAuGdMUCy0L5ihhK2gYh1kPSIHjfXbfpeK3HNBtXrc=s400" width="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">Mathis</small> <small class="font-weight-bold"><br>Hmm, petit test RAS</small></span> </div> <small>25/05/2021</small> </div>
+                                        <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                            
+                                            <div class="reply px-4"> <small>Supprimer</small> <span class="dots"></span> <small>Répondre</small> </div>
+                                            <div class="icons align-items-center"> <i class="fa fa-star text-warning"></i> <i class="fa fa-check-circle-o check-icon"></i> </div>
+                                        </div>
+                                    </div>
+                                    
+                                
+                                <div class="card p-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="user d-flex flex-row align-items-center"> <img src="https://www.cinechronicle.com/wp-content/uploads/2014/07/Mowgli-Disney.jpg"width="30" class="user-img rounded-circle mr-2"> <span><small class="font-weight-bold text-primary">Mathis</small> <small class="font-weight-bold"><br>Hmm, petit test RAS</small></span> </div> <small>25/05/2021</small> </div>
+                                    <div class="action d-flex justify-content-between mt-2 align-items-center">
+                                        
+                                        <div class="reply px-4"> <small>Supprimer</small> <span class="dots"></span> <small>Répondre</small> </div>
+                                        <div class="icons align-items-center"> <i class="fa fa-star text-warning"></i> <i class="fa fa-check-circle-o check-icon"></i> </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    </section>
+                </div>
+
+                <!-- Side widgets-->
+                
+                <div class="col-lg-4">
+                    <section id="rel">
+                    <!-- Search widget-->
+                    
+                        
+                        
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Inscrivez vous ici ! </div>
+                        <div class="card-body">
+                            <div class="row">
+                                  
+                                     <h3>Date : 28/07/2021</h3>
+                                     <h4>Rejoins nous sur les réseaux sociaux !</h4>
+                                     <div class="fas"><a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a> <a href="#" class="fa fa-instagram"></a> <a href="#" class="fa fa-snapchat"></a> <a href="#" class="fa fa-youtube"></a></div>
+                                      <button type="button" class="btn btn-primary">je veux m'inscrire à cet évènement<br>65€</button>
+                                      
+                                           
+                                        </div>
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Side widget-->
+                    
+                </div>
+            </div>
+        </section>
+        </div>
+        <footer class="footer-bs">
+            <div class="row">
+                <div class="col-md-3 footer-brand animated fadeInLeft">
+                    <h2>EVENTBRITE THP</h2>
+                    <p>Projet THP. Mathis Chaumette</p>
+            
+                </div>
+                <div class="col-md-4 footer-nav animated fadeInUp">
+                    <h4>Menu —</h4>
+                    <div class="col-md-6">
+                        <ul class="pages">
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Évènements</a></li>
+                            <li><a href="#">À Propos</a></li>
+                            <li><a href="#">S'inscrire / Se connecter</a></li>
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-md-2 footer-social animated fadeInDown">
+                    <h4>Suivez vous sur :</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-ns animated fadeInRight">
+                    <h4>Newsletter</h4>
+                    <p>Toute l'actualité de votre site sur votre boite mail !</p>
+                    <p>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Adresse mail">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                          </span>
+                        </div><!-- /input-group -->
+                     </p>
+                </div>
+            </div>
+        </footer>
+   
+</body>
